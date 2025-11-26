@@ -1,0 +1,46 @@
+{
+  "name": "elliephp/elliephp",
+  "type": "project",
+  "description": "The ElliePHP Framework Skeleton Project.",
+  "keywords": [
+    "php",
+    "framework",
+    "elliephp"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "elliephp/framework": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0",
+    "rector/rector": "^2.2",
+    "roave/security-advisories": "dev-latest",
+    "symfony/var-dumper": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElliePHP\\Application\\": "app/",
+      "ElliePHP\\Bootstrap\\": "bootstrap/",
+      "ElliePHP\\ElliePHP\\": "src/"
+    },
+    "files": [
+      "src/Support/path.php",
+      "src/Support/helpers.php"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test:coverage": "phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

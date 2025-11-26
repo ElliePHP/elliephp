@@ -1,0 +1,1 @@
+{"routes":[{"method":"GET","path":"\/","class":"ElliePHP\\Application\\Controllers\\WelcomeController","handler":"process","middleware":[],"name":"get.root","domain":null}],"cached_at":1763334278,"route_files_mtime":1763323121}

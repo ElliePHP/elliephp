@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * ElliePHP Framework - Console Entry Point
+ *
+ * This file provides CLI access to framework commands.
+ * Run: php bin/console list
+ */
+
+define('ELLIE_BASE_PATH', __DIR__);
+
+require __DIR__ . '/vendor/autoload.php';
+
+use ElliePHP\Console\Application;
+
+// Bootstrap console with framework's DI container
+$app = new Application();
+$app->addCommands(config('commands.app'));
+$app->run();
