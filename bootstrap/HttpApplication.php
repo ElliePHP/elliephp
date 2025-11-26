@@ -13,7 +13,7 @@ use Laminas\Diactoros\ServerRequestFactory;
  */
 final class HttpApplication extends Kernel
 {
-    public const string VERSION = '1.0.1';
+    public const string VERSION = '1.0.0';
 
     private static ?self $instance = null;
 
