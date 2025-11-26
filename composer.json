@@ -30,6 +30,15 @@
     ]
   },
   "scripts": {
+    "post-install-cmd": [
+      "@copy-env"
+    ],
+    "post-update-cmd": [
+      "@copy-env"
+    ],
+    "copy-env": [
+      "php -r \"if (!file_exists('.env') && file_exists('.env.example')) { copy('.env.example', '.env'); echo '.env created'; }\""
+    ],
     "test": "phpunit",
     "test:coverage": "phpunit --coverage-html coverage"
   },

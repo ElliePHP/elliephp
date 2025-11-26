@@ -1,6 +1,6 @@
 <?php
 
-namespace ElliePHP\Application\Console\Command;
+namespace ElliePHP\Application\Commands;
 
 use Closure;
 use ElliePHP\Components\Routing\Router;

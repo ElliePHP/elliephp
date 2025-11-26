@@ -1,6 +1,6 @@
 <?php
 
-namespace ElliePHP\Application\Console\Command;
+namespace ElliePHP\Application\Commands;
 
 use ElliePHP\Components\Support\Util\File;
 use ElliePHP\Components\Support\Util\Str;

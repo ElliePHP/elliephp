@@ -41,7 +41,7 @@ return array(
     'ElliePHP\\Components\\Support\\' => array($vendorDir . '/elliephp/support/src'),
     'ElliePHP\\Components\\Routing\\' => array($vendorDir . '/elliephp/routing/src'),
     'ElliePHP\\Components\\Cache\\' => array($vendorDir . '/elliephp/cache/src'),
-    'ElliePHP\\Bootstrap\\' => array($baseDir . '/Bootstrap'),
+    'ElliePHP\\Bootstrap\\' => array($baseDir . '/bootstrap'),
     'ElliePHP\\Application\\' => array($baseDir . '/app'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),

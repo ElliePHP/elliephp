@@ -1,9 +1,9 @@
 <?php
 
 
-use ElliePHP\Application\Console\Command\MakeControllerCommand;
-use ElliePHP\Application\Console\Command\RoutesCommand;
-use ElliePHP\Application\Console\Command\ServeCommand;
+use ElliePHP\Application\Commands\MakeControllerCommand;
+use ElliePHP\Application\Commands\RoutesCommand;
+use ElliePHP\Application\Commands\ServeCommand;
 
 return [
     'app' => [

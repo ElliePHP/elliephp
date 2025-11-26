@@ -2471,12 +2471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ccd1dbf6d6823ddeb0c9d800a77740abff191e07"
+                "reference": "3f393e137e490ecb2ac77989a692129c31192de7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ccd1dbf6d6823ddeb0c9d800a77740abff191e07",
-                "reference": "ccd1dbf6d6823ddeb0c9d800a77740abff191e07",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3f393e137e490ecb2ac77989a692129c31192de7",
+                "reference": "3f393e137e490ecb2ac77989a692129c31192de7",
                 "shasum": ""
             },
             "conflict": {
@@ -3107,7 +3107,7 @@
                 "rap2hpoutre/laravel-log-viewer": "<0.13",
                 "react/http": ">=0.7,<1.9",
                 "really-simple-plugins/complianz-gdpr": "<6.4.2",
-                "redaxo/source": "<5.18.3",
+                "redaxo/source": "<5.20.1",
                 "remdex/livehelperchat": "<4.29",
                 "renolit/reint-downloadmanager": "<4.0.2|>=5,<5.0.1",
                 "reportico-web/reportico": "<=8.1",
@@ -3423,7 +3423,7 @@
                 "zfr/zfr-oauth2-server-module": "<0.1.2",
                 "zoujingli/thinkadmin": "<=6.1.53"
             },
-            "time": "2025-11-25T21:05:31+00:00",
+            "time": "2025-11-26T00:22:38+00:00",
             "default-branch": true,
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",

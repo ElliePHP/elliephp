@@ -1,6 +1,6 @@
 <?php
 
-namespace ElliePHP\Application\Console\Command;
+namespace ElliePHP\Application\Commands;
 
 use ElliePHP\Console\Command\BaseCommand;
 use Symfony\Component\Console\Input\InputOption;

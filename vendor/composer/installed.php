@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'elliephp/ellie',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'elliephp/elliephp',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '00ee80989800b33a476f63f1e8356f18c62fb45d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -28,10 +28,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'elliephp/ellie' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'elliephp/elliephp' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '00ee80989800b33a476f63f1e8356f18c62fb45d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -388,7 +388,7 @@
         'roave/security-advisories' => array(
             'pretty_version' => 'dev-latest',
             'version' => 'dev-latest',
-            'reference' => 'ccd1dbf6d6823ddeb0c9d800a77740abff191e07',
+            'reference' => '3f393e137e490ecb2ac77989a692129c31192de7',
             'type' => 'metapackage',
             'install_path' => null,
             'aliases' => array(
